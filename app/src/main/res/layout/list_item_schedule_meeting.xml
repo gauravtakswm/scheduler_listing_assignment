@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bind="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <import type="android.view.View"/>
+        <variable
+            name="rowScheduledMeetingListing"
+            type="com.gauravtak.scheduler_assignment.viewmodels.RowScheduledMeetingListingVM" />
+    </data>
+<LinearLayout       xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linear_layout"
+    android:background="@color/colorBgGrey2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tv_time"
+                    android:text="@{rowScheduledMeetingListing.timeValue}"
+                     android:textColor="@color/colorDividerLineLight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/textSizeListItemsubTitle"
+        android:layout_marginTop="10dp"
+        android:maxLines="1"
+        android:fontFamily="@font/lato_regular"
+        android:ellipsize="end"
+        android:layout_marginLeft="@dimen/marginListItemLeft"
+        android:layout_marginRight="@dimen/marginListItemRight"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="@dimen/marginListItemLeft"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="@dimen/marginListItemRight"
+        android:background="@color/colorGrey" />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_des"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/textSizeListItemTitle"
+        android:maxLines="1"
+
+        android:text="@{rowScheduledMeetingListing.desValue}"
+        android:ellipsize="end"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/lato_regular"
+        android:textColor="@color/colorTextBlack"
+        android:layout_marginLeft="@dimen/marginListItemLeft"
+        android:layout_marginRight="@dimen/marginListItemRight"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.7dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorDividerLineDark" />
+</LinearLayout>
+</layout>
+
+
+

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">6dp</dimen>
+    <dimen name="activity_vertical_margin">6dp</dimen>
+    <dimen name="toolbar_center_title_left_margin">8dp</dimen>
+    <dimen name="toolbar_center_title_right_margin">8dp</dimen>
+    <dimen name="toolbar_right_margin">12dp</dimen>
+    <dimen name="toolbar_left_margin">12dp</dimen>
+    <dimen name="textSizeToolbarCenter">17sp</dimen>
+    <dimen name="textSizeToolbarRight">15sp</dimen>
+    <dimen name="textSizeToolbarLeft">15sp</dimen>
+    <dimen name="drawablePadding">4dp</dimen>
+    <dimen name="radiusSizeBtncorner">10dp</dimen>
+    <dimen name="marginBtnLeft">24dp</dimen>
+    <dimen name="marginBtnRight">24dp</dimen>
+    <dimen name="marginBtnTop">8dp</dimen>
+    <dimen name="marginBtnBottom">8dp</dimen>
+    <dimen name="paddingBtnLeft">32dp</dimen>
+    <dimen name="paddingBtnRight">32dp</dimen>
+    <dimen name="textSizeBtn">16sp</dimen>
+    <dimen name="textSizeListItemsubTitle">14sp</dimen>
+    <dimen name="textSizeListItemTitle">16sp</dimen>
+    <dimen name="marginListItemLeft">32dp</dimen>
+    <dimen name="marginListItemRight">32dp</dimen>
+    <dimen name="edit_text_corner_radius">10dp</dimen>
+    <dimen name="marginScheduleBookLeft">24dp</dimen>
+    <dimen name="paddingTvLeft">16dp</dimen>
+    <dimen name="paddingTvRight">16dp</dimen>
+    <dimen name="paddingTvTop">8dp</dimen>
+    <dimen name="marginTopLandscape">22dp</dimen>
+    <dimen name="paddingTopLandscape">12dp</dimen>
+    <!--<dimen name="marginBtnLeft1">24dp</dimen>
+    <dimen name="marginBtnRight1">24dp</dimen>-->
+
+
+</resources>
